@@ -7,7 +7,7 @@ import org.apache.commons.math3.distribution.TDistribution;
 class DistribErrorPrinter {
 
     // Result.java
-    public void iterationResulti() {
+    public void iterationResult() {
         System.out.println(String.format("   %.2f ± %.2f", getScore(), getScoreError()));
     }
     public double getScoreError() {
